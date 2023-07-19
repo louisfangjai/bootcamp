@@ -26,9 +26,9 @@ public class DataType {
     //floating point
     //int num3 = 1.1 // because int can only store integer 
     double f = 1.03;
-    double f2 = 1; // it's work and will explain later
+    double f2 = 1; // it's work and will explain later，JAVA默許左integer可以用好多個1
 
-    //byte,short,long
+    //byte,short,long (byte較少用)(大部份用int>21億<心入面知)
     byte b = 127;
     //byte b2 = 128; //eror,out of range
     byte b3 = -128;
@@ -52,8 +52,8 @@ public class DataType {
     System.out.println(d4);
 
     //char, value should be assigned by single quote' '
-    char gender = 'M';
-    char s10 = ' ';
+    char gender = 'M'; 
+    char s10 = ' '; // 一定要有character所以space都要
     System.out.println(gender);
     // char empty = " "; //error double space就唔得
 
@@ -92,7 +92,7 @@ public class DataType {
 
     //String str6 = 13 + 13;//error
     String str7 = " " + 13 + 13; //13 -> String"13",resut: 1313 用舊STRING 帶住野令13,13變埋做string
-    System.out.println(str7);
+    System.out.println("str7 = " + str7);
 
 
 
@@ -101,7 +101,7 @@ public class DataType {
     int b10 = 1 - 3; //-2
     int c10 = 2 - 80;//-78
     int i = 2 * 101;//202
-    int p = 10/3; // 3 無4捨5入concept
+    int p = 10/3; // ~3 唔會3.33，無4捨5入concept，*唔可以除0!e.g 10/0
 
     System.out.println(p);
     int o = 10 % 3;//1,1 is remainder

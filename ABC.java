@@ -2,10 +2,44 @@ public class ABC{
   public static void main(String[] args){
 
 
+    System.out.println("I am going to add two numbers together:");
+    int first = 31;
+    // declare the second one
+    // code here
+    int second = 42;
+    System.out.println("The first one: " + first);
+    System.out.println("The second one: " + second);
+    int sum = (first + second);
+    System.out.println("The sum is " + sum);
+    int subtract = (second - first);
+    System.out.println("The subtraction reuslt is " + subtract);
 
+    byte b1 = 60;
+    byte b2 = 70;
+    // code here with tips, pls fix
+    // sum = b1 + b2;
+    int sum1 = b1 + b2;
+    System.out.println("The another sum reuslt is " + sum1);
 
-    float f1 = 1.00003;
-    
+    boolean varB = false;
+    boolean varC = true;
+    System.out.println("The variable varB is " + varB);
+    System.out.println("The variable varC is " + varC);
+
+    float fnumber = -130.20f; // By default, numbers are treated as double in Java.
+    // Use suffix 'f' with value to make it float.
+    // code here 
+    System.out.println("The variable fnumber is " + fnumber);
+    float dnumber = -20.5f;
+    System.out.println("The variable dnumber is " + dnumber);
+
+    // Find reminder. Declare variable a & reminder
+    int a = 7;
+    int b = 3;
+    // Fix it
+    int reminder = a % b;
+    System.out.println("The variable reminder is " + reminder);
+
   }
 
 }
