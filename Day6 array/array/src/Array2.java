@@ -6,7 +6,7 @@ public class Array2 {
 
    System.out.println(swap("hello",2,4));
 String strTest="louis";
-System.out.println(swap(strTest,99,100));
+System.out.println(swap(strTest,2,3));
   }
 
   public static String swap(String str,int idx1,int idx2){

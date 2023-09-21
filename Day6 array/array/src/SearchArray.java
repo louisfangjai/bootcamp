@@ -11,7 +11,7 @@ public class SearchArray {
           System.out.println("index= "+ i + " ,found");
         }
       }
-      // toCharArray()
+      // toay()
       // linear search由頭搵到尾
         String str = "I am a boy."; // 11 characters
         char[] arr = str.toCharArray(); // /length11 你連佢長都唔洗知，assign左 char array ge位

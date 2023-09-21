@@ -11,6 +11,8 @@ public class Primitives {
         long l = i;
         float f = l;
         double d = f;
+        byte b2 = (byte)i;
+        System.out.println("b2 = " + b2);
         // char -> int
         char c ='A';
         int j = c;
@@ -48,7 +50,7 @@ public class Primitives {
         int g = 'a';
         System.out.println("g= "+g); // g=97
         int g2 = 66;
-        char k = (char)g2; //Explicit  onversion/downcasting 強行做，char k = g2 ->唔得
+        char k = (char) g2; //Explicit  onversion/downcasting 強行做，char k = g2 ->唔得
         char k2 = 66;// why? downcast. char同數字相同，默認 66 is ASCII code, 無做conversion
         System.out.println("k= "+k); // k=B
         System.out.println("k2= "+k2); //k2 =B

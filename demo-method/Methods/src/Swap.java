@@ -14,15 +14,18 @@ public class Swap {
       System.out.println("arr[" + i + "]=" + arr[i]);
       // [romt]
     }
+      System.out.println(Arrays.toString(arr)); // 可用String.valueOf?
 
-    String test1 = "abcdeefgdfdfdfg";
-    System.out.println(SwapOddEvenCharacter(test1));
+    String test1 = "abcd";
+    System.out.println("arrays.tostring  "+ SwapOddEvenCharacter(test1));
     "123".isEmpty(); //varablie
-    System.out.println("123".isEmpty()); //->false括號入面 static method
-    System.out.println(S2(test1));
+    System.out.println("123isEmpty".isEmpty()); //->false，括號入面 static method
+    System.out.println("S.valueOf = "+S2(test1));
    ;
      String str1 = String.valueOf(123); // "123"
-     String str2 = String.valueOf(true); // "true"
+     System.out.println("str1 = "+str1);
+     String str2 = String.valueOf("ss"); // "true"
+     System.out.println("str2 = "+str2);
   }
   
   // Swap
@@ -44,15 +47,16 @@ public class Swap {
     }
     return Arrays.toString(arr);
      }
+
       public static String S2 (String str){
         char[] chars = str.toCharArray();
         char temp;
         for(int i = 0; i < chars.length-1; ++i){
           if( i % 2 == 0){ // [0] [1] [2]
+            // Swap
           temp = chars [i];
           chars[i] = chars[i+1];
           chars[i+1] = temp;
-    
       }
 }
       return String.valueOf(chars);

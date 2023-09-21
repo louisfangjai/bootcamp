@@ -1,0 +1,62 @@
+// Represent a Student object, return subject, 1個student，要share students
+{
+  "name": "John",
+  "age": 17,
+  "Salary": 10000.5,
+  "isMale": false
+} 
+[]// empty list
+// Represent List of Student objects, 中括號先係list
+[
+  {
+    "name": "John",
+    "age": 17,
+    "Salary": 10000.5,
+    "isMale": true
+  },
+  {
+    "name": "Mary",
+    "age": 19, //無int，INTEGER，可以null
+    "Salary": 10000.5,
+    "isMale": false
+  },
+  {
+    "name": "Betty",
+    "age": 19,
+    "Salary": null,
+    "isMale": null
+  }
+]
+// Other Lists (Valid) //因為String是Object...
+["John","Peter"]
+[17,19,20]
+
+//One student Object
+[
+{
+  "name": "John\"",
+  "age": 17,
+  "Salary": 10000.5,
+  "isMale": true,
+  "subjects":[ // List of subjects
+      {
+        "name":"Maths",
+        "tutor":"ABC"
+      },
+      {
+        "name":"English",
+        "tutor":"XYZ"
+      }
+    ]
+},
+{
+  []}
+]
+
+// Not Invalid JSON
+["John",17] //不可以唔同type，
+
+[
+  "name":"John",
+  "age":17
+]

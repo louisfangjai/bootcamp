@@ -7,11 +7,12 @@ public class Random1 {
     System.out.println(num);
 
    // 1-3
-   int nums2 = new Random().nextInt(3)+1; // 
+   int nums2 = new Random().nextInt(3)+1; //  [ 1,2,3]
     System.out.println(nums2);
 
     System.out.println("random = "+randomAbcde());
-
+      int six = new Random().nextInt(49)+1;
+      System.out.println(six);
   }
 
     // A,B,C,D,E

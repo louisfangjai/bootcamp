@@ -62,9 +62,10 @@ public class test { //大細階
     // Q9:delcare problems
     // int x =1
     //之後唔可以 int x = 2; or float x=2.0f; (但係for情況就可以? int i=)
+    // 同埋同個括號
     // String特性~ DATA TYPE 將integer變左做string
    //Q1外國market，IT市埸點
-    //Q10: file name 大細階
+    //Q10: file name 大細階>最好大楷無人用細
     //boolean
 
     //Project question: why need workspace?
@@ -72,7 +73,9 @@ public class test { //大細階
     // double包曬,LONG
     // array > char
       
-
+      // Primitives file: line 50 , int 66
+      //.nextInt()~random,scanner file(ReadInput)
+      // Arrays.toString(arr) vs String,valueOf(chars) -> swap file
 
 
     }

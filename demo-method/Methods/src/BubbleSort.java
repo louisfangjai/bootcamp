@@ -3,7 +3,7 @@ import java.util.Arrays;
 public class BubbleSort {
   
   public static void main(String[] args){
-    //[5,1,4,2,8]
+    //[5,1,4,8,2]
     //step1 將最大放去曼後
     //step 1.1:[1,5,4,8,2](swap 1,5)
     //step 1.2:[1,4,5,8,2](swap 4,5)
@@ -16,7 +16,7 @@ public class BubbleSort {
     //...
     //target [1,2,4,5,8]
 
-      int[] nums = new int[] {5,1,4,2,8};
+      int[] nums = new int[] {5,1,4,8,2};
       System.out.println(Arrays.toString(sort(nums)));
   }
 public static int[] sort(int[] arr){

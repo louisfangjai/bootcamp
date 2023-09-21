@@ -16,16 +16,17 @@ public class JavaQuest8 {
     int max = 0;
     int secondMax= 0;
     for(int i=0;i<nums.length;i++){
-        if(nums[i]>= max){
+        if(nums[i]> max){
           secondMax= max;
            max = nums[i];
           }
-     else if(nums[i]<max && nums[i]>= secondMax){
+     else if(nums[i]> secondMax){
     secondMax = nums[i];
   }
     }
     System.out.println("The Second Max is "+secondMax);
-     max=0;
+    
+     max= 0;
      secondMax=0;
      for(int i=0;i<nums2.length;i++){
         if(nums2[i]>= max){
@@ -53,11 +54,11 @@ public class JavaQuest8 {
         max=0;
      secondMax=0;
      for(int i=0;i<nums4.length;i++){
-        if(nums4[i]>= max){
+        if(nums4[i]> max){
           secondMax= max;
            max = nums4[i];
           }
-     else if(nums4[i]<max && nums4[i]>= secondMax){
+     else if( nums4[i]>= secondMax){
     secondMax = nums4[i];
     
   }

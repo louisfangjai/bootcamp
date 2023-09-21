@@ -30,7 +30,7 @@ public class Methods {
     //call method2
     method2("hello"); // print String=hello
     method2("github"); // print string=github
-    method2("");
+    method2(""); //無野return，並且return離開左，無行到print個動作
 
     double circleArea = 5 * 5 * pi();
     System.out.println("circle area= " + circleArea);
@@ -38,6 +38,7 @@ public class Methods {
 
   public static void print(){ //method name: print() ，封裝一個地方再print，void是指無野要return出黎
       System.out.println("Hello in print() method."); //method名先後次序唔重要，main ()外 + class()入面
+      return;
   }
   public static int sum(int a , int b){ 
     // left int = return type (int sum)(製成品)
@@ -52,7 +53,7 @@ public class Methods {
     if (str == null || "".equals(str)){ //null is not empty, empty ->""
       return; // 離開左 but  why void has returnn?
     }
-    System.out.println("string= "+ str); // main logic
+    System.out.println("string= "+ str); // main logic, print呢個動作只是行呢個Method時但佢無return到D野出黎
   }
   public static double pi(){
     return 3.14159;
